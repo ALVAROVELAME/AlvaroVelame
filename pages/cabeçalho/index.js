@@ -3,6 +3,7 @@ import styles from './cabecalho.module.css';
 
 function Cabecalho() {
   return (
+  
     <header className={styles.container}>
       <h1 id={styles.titulo}>Alvaro Velame</h1>
       <nav>
@@ -14,6 +15,7 @@ function Cabecalho() {
         </ul>
       </nav>
     </header>
+    
   );
 }
 

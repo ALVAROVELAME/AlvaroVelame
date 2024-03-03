@@ -1,0 +1,32 @@
+.corpo {
+  background-color: #f9f9f9; /* Cor de fundo */
+  padding: 40px; /* Espaçamento interno */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas de largura igual */
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff; /* Cor de fundo dos projetos */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 40px; /* Espaçamento inferior entre os projetos */
+}
+
+.project h3 {
+  color: #333; /* Cor do título */
+}
+
+.project p {
+  color: #666; /* Cor do texto */
+}
+
+.project a {
+  color: #007bff; /* Cor do link */
+  text-decoration: none; /* Remover sublinhado padrão */
+}
+
+.project a:hover {
+  text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
