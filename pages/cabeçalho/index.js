@@ -1,11 +1,12 @@
-import React from "react";
+// componentes/Cabeçalho/Cabecalho.js
 
-function Cabecalho() {
+import styles from './index.module.css';
+
+export default function Cabecalho() {
   return (
-    <>
-      <h1>Ola Mundo!</h1>
-    </>
+    <header className={styles.cabecalho}>
+      <h1>Meu Site</h1>
+      <p>Bem-vindo ao meu site!</p>
+    </header>
   );
 }
-
-export default Cabecalho;

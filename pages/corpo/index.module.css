@@ -1,0 +1,9 @@
+
+.corpo {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
