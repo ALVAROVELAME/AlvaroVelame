@@ -17,7 +17,7 @@ export default function ConteudoPrincipal() {
       <div>
       <h2>Serviços Oferecidos</h2>
       <p>
-        <lu>
+        <ul>
           <li>
             Desenvolvimento de Aplicações Web e Desktop em Java, JavaScript e Python
           </li>
@@ -27,7 +27,7 @@ export default function ConteudoPrincipal() {
           <li>
             Consultoria em Desenvolvimento de Software
           </li>
-        </lu>
+        </ul>
       </p>
     </div>
     <div>
@@ -38,12 +38,12 @@ export default function ConteudoPrincipal() {
         Minhas habilidades abrangem:
       </h6>
       <p>
-        <lo>
+        <ul>
           <li>Linguagens de Programação: Java, JavaScript, Python</li>
           <li>Frameworks e Bibliotecas: Spring Boot, React.js, Node.js, Flask</li>
           <li>Automação e Scraping: Selenium, BeautifulSoup, Puppeteer</li>
           <li>Banco de Dados: SQL (MySQL, PostgreSQL), NoSQL (MongoDB)</li>
-        </lo>
+        </ul>
       </p>
     </div>
   </div>
