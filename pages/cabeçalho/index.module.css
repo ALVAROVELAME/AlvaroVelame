@@ -1,18 +1,22 @@
+/* componentes/Cabeçalho/index.module.css */
 
-.cabecalho {
-   background-color: #f3f0eb;
-  color: #fff;
-  padding: 20px;
+.header {
+  display: flex;
+  justify-content: space-between; /* Alinhar os elementos no início e no final do cabeçalho */
+  align-items: center; /* Alinhar verticalmente */
+  padding: 10px; /* Adicionar espaçamento interno */
+  background-color: #f3f0eb; /* Fundo cremoso */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif;
 }
 
-.cabecalho h1 {
-  font-size: 2rem;
+.navlinks ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
 }
 
-.cabecalho p {
-  font-size: 1rem;
-  margin: 0;
+.navlinks ul li {
+  display: inline; /* Exibir os itens da lista horizontalmente */
+  margin-right: 10px; /* Espaçamento entre os itens */
 }
-
-
