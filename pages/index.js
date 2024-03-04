@@ -1,11 +1,12 @@
 // pages/index.js
 import Head from './head/index';
-import Cabeçalho from './cabeçalho/index';
-import ConteúdoPrincipal from './conteudo Principal/index';
+import Cabecalho from './cabeçalho/index';
+import ConteudoPrincipal from './conteudo Principal/index';
 import BarraLateral from './barra lateral/index';
-import Rodapé from './rodape/index';
+import Rodape from './rodape/index';
 
-export default function Home() {
+
+function HomePage() {
   return (
     <div>
       <Head>
@@ -14,14 +15,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Cabeçalho />
+      <Cabecalho />
 
       <div className="container">
         <BarraLateral />
-        <ConteúdoPrincipal />
+        <ConteudoPrincipal />
       </div>
 
-      <Rodapé />
+      <Rodape />
     </div>
   );
 }
+
+export default HomePage;
