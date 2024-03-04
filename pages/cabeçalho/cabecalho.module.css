@@ -1,24 +1,2 @@
-.container {
-  display:flex
-}
-
-#titulo {
-  color:burlywood;
-}
-
-.menus {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.menus li {
-  padding: 10px;
-  list-style: none;
-}
-
-.menus li:last-child {
-  border-right: none;
-}
-
 
 

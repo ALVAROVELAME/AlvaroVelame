@@ -1,22 +1,10 @@
-import React from 'react';
-import styles from './cabecalho.module.css';
+import React from "react";
 
 function Cabecalho() {
   return (
-  <>
-    <header className={styles.container}>
-      <h1 id={styles.titulo}>Alvaro Velame</h1>
-      <nav>
-        <ul className={styles.menus}>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Deixe um Orçamento</a></li>
-        </ul>
-      </nav>
-    </header>
+    <>
+      <h1>Ola Mundo!</h1>
     </>
-    
   );
 }
 
