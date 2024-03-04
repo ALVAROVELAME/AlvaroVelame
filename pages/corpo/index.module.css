@@ -6,7 +6,7 @@
   gap: 20px;
 }
 
-.project {
+.corpo .project {
   background-color: #fff; 
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
@@ -14,20 +14,20 @@
   margin-bottom: 40px; 
 }
 
-.project h3 {
+.corpo .project h3 {
   color: #333;
 }
 
-.project p {
+.corpo .project p {
   color: #666; 
 }
 
-.project a {
+.corpo .project a {
   color: #007bff; 
   text-decoration: none; 
 }
 
-.project a:hover {
+.corpo .project a:hover {
   text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
 }
 

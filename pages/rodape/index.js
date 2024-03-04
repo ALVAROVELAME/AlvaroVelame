@@ -3,7 +3,8 @@ import styles from './index.module.css';
 
 function Rodape() {
     return (
-        <footer className={styles.rodape}>
+        <div className={styles.rodape}>
+        <footer >
     <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
     <nav>
       <ul>
@@ -12,6 +13,7 @@ function Rodape() {
       </ul>
     </nav>
 </footer>
+</div>
 
     );
 }
