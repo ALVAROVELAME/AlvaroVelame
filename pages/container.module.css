@@ -1,0 +1,5 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+  gap: 20px; /* Espaçamento entre as células do grid */
+}

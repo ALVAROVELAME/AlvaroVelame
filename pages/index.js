@@ -4,6 +4,7 @@ import Cabecalho from './cabeçalho/index';
 import ConteudoPrincipal from './conteudo Principal/index';
 import BarraLateral from './barra lateral/index';
 import Rodape from './rodape/index';
+import styles from './container.module.css';
 
 
 function HomePage() {
@@ -18,7 +19,7 @@ function HomePage() {
       <Cabecalho />
 
       <div className="container">
-        <BarraLateral />
+        
         <ConteudoPrincipal />
       </div>
 
