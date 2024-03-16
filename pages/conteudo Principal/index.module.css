@@ -1,25 +1,46 @@
-/* index.module.css */
-
-.conteudoPrincipal {
+.container {
   display: flex;
-  flex-wrap: wrap;
 }
 
-.item {
-  flex: 1 1 45%;
-  margin: 10px;
-  background-color: #f2f2f2;
-  text-align: center; /* Centraliza o texto horizontalmente */
+.column {
+  flex: 1;
+  padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .item {
-    flex-basis: 100%;
-  }
+.column h2 {
+  margin-bottom: 10px;
 }
 
-.imagem {
-  /* Adicione estilos para a imagem, se necessário */
+.column p {
+  margin-bottom: 10px;
+  font-size: 22px; /* Tamanho da fonte definido como 14 pixels */
 }
 
-/* Adicione mais estilos conforme necessário */
+.column ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 22px; /* Tamanho da fonte definido como 14 pixels */
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Adicione esta regra CSS ao seu arquivo .css */
+
+.column a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #654321; /* Define a cor do texto do link */
+  font-weight: bold; /* Define a fonte em negrito */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte personalizada */
+  margin-bottom: 20px; /* Adiciona espaçamento abaixo do link */
+  margin-top: 10px; /* Adiciona espaçamento acima do link */
+}
+
+.column a:hover {
+  text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa por cima */
+  color: chocolate; /* Define a cor do texto do link */
+}
+
