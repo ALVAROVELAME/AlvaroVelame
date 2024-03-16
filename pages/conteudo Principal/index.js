@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.module.css'; // Importa o módulo CSS
+import Formulario from '../formulario/index';
 
 export default function ConteudoPrincipal() {
   return (
@@ -9,8 +10,8 @@ export default function ConteudoPrincipal() {
         <p>
           Olá! Sou Álvaro Velame, um entusiasta do desenvolvimento de software com experiência em Java, JavaScript e Python. Além disso, tenho expertise em automações e scraping, o que me permite simplificar processos e extrair informações valiosas da web.
         </p>
-        <a href="https://www.seu-link.com">veja o Projeto</a>
         <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Imagem" />
+        <a href="https://www.seu-link.com">veja o Projeto</a>
       </div>
 
       <div className={styles.column}>
@@ -20,9 +21,10 @@ export default function ConteudoPrincipal() {
           <li>Automações e Scraping para otimização de processos e coleta de dados na web</li>
           <li>Consultoria em Desenvolvimento de Software</li>
         </ul>
-        <a href="https://www.seu-link.com">Veja o projeto</a>
         <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Imagem" />
+        <a href="https://www.seu-link.com">Veja o projeto</a>
       </div>
+      <Formulario />
     </div>
   );
 };

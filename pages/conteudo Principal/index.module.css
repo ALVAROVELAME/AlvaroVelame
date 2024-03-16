@@ -1,10 +1,12 @@
 .container {
   display: flex;
+  flex-wrap: wrap; /* Permite que os itens sejam enrolados em telas menores */
 }
 
 .column {
   flex: 1;
   padding: 20px;
+  box-sizing: border-box; /* Garante que o padding não afete a largura da coluna */
 }
 
 .column h2 {
@@ -13,19 +15,21 @@
 
 .column p {
   margin-bottom: 10px;
-  font-size: 22px; /* Tamanho da fonte definido como 14 pixels */
-}
-
-.column ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 22px; /* Tamanho da fonte definido como 14 pixels */
+  font-size: 14px;
 }
 
 .column img {
   max-width: 100%;
   height: auto;
 }
+
+/* Media query para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+  .column {
+    flex-basis: 100%; /* Defina a largura da coluna como 100% em telas menores */
+  }
+}
+
 
 
 /* Adicione esta regra CSS ao seu arquivo .css */
